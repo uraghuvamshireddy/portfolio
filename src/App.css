@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.navbar{
+  background-color: rgba(0, 0, 0, 0.804);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  padding: 20px;
+  color: rgba(245, 245, 245, 0.716);
+}
+.aboutme{
+  padding-right: 20px;
+}
+.education{
+  padding-right: 20px;
+}
+.skills{
+  padding-right: 20px;
+}
+.projects{
+  padding-right: 20px;
+}
+
+.des{
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.804);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image{
+  margin: 20px;
+  width: 20%;
+}
+
+.me1{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 20px;
+
+}
+
+.me{
+  /* padding: 20px; */
+  font-size:xx-large;
+  font-weight: 900;
+  color: rgba(255, 255, 0, 0.538);
+}
+
+.descr{
+  color:  rgba(245, 245, 245, 0.519);
+  font-size: larger;
+  padding-right: 30%;
+}
+
+.name{
+  font-size: xx-large;
+
+}
