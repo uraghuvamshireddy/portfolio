@@ -50,6 +50,7 @@
 
 .me{
   /* padding: 20px; */
+  font-family:'Brush Script MT', cursive;
   font-size:xx-large;
   font-weight: 900;
   color: rgba(255, 255, 0, 0.538);
@@ -64,4 +65,75 @@
 .name{
   font-size: xx-large;
 
+}
+.eduname{
+  background-color:rgba(0, 0, 0, 0.804) ;
+  font-family:'Brush Script MT', cursive;
+  font-size:xx-large;
+  font-weight: 900;
+  color: rgba(255, 255, 0, 0.538);
+  padding-left: 50px;
+  
+}
+
+.edu{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.804);
+}
+.card-container {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin: 15px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card-container:hover {
+  transform: translateY(-10px);
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.804);
+  color: rgba(245, 245, 245, 0.716);
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.card-details.hovered {
+  opacity: 1;
+}
+
+.card-level {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(255, 255, 0, 0.538);
+  color: rgba(3, 13, 15, 0.519);
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  z-index: 1;
 }
