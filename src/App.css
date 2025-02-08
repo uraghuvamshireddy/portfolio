@@ -13,6 +13,7 @@
   font-size: larger;
   padding: 20px;
   color: rgba(245, 245, 245, 0.716);
+  border-bottom: 2px solid yellow;
 }
 .aboutme{
   padding-right: 20px;
@@ -73,6 +74,7 @@
   font-weight: 900;
   color: rgba(255, 255, 0, 0.538);
   padding-left: 50px;
+  border-bottom: 2px solid yellow;
   
 }
 
@@ -135,5 +137,91 @@
   font-size: 16px;
   font-weight: bold;
   border-radius: 5px;
-  z-index: 1;
+}
+.contact1{
+  background-color:rgba(0, 0, 0, 0.804) ;
+
+}
+.con{
+  font-family:'Brush Script MT', cursive;
+  font-size:xx-large;
+  font-weight: 900;
+  color: rgba(255, 255, 0, 0.538);
+  padding-left: 50px;
+  border-bottom: 2px solid yellow;
+}
+.social-links {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon {
+  font-size: 40px;
+  color:rgba(245, 245, 245, 0.716) ;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #0077b5; 
+}
+
+.social-icon.linkedin:hover {
+  color: #0077b5; 
+}
+
+.social-icon.github:hover {
+  color:rgba(245, 245, 245, 0.716) ;
+}
+
+.social-icon.email:hover {
+  color: #d14836; 
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 15px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.skill-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  transition: background-color 0.3s, border-color 0.3s;
+  text-align: center;
+  cursor: pointer;
+  max-width: 120px;
+}
+
+.skill-box .icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+.skill-box p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.skill-box:hover {
+  background-color: rgba(255, 255, 0, 0.538);
+  border-color: rgba(255, 255, 0, 0.716);
+}
+
+.skill-box:hover .icon {
+  color: white;
+}
+
+.skill-box:hover p {
+  color: white;
 }
