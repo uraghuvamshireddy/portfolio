@@ -14,7 +14,7 @@ const projects = [
       image: 'https://th.bing.com/th/id/OIP.pvZxdxAe7fBccgxPZfJSxQAAAA?rs=1&pid=ImgDetMain',
       title: 'Tracker',
       description: 'This web application allows users to track their mobile location in real-time and send an SOS alert to nearby users in case of an emergency. It is a helpful tool for personal safety, making it easier to call for help when needed.',
-      projectLink: 'https://github.com/project2',
+      projectLink: 'https://github.com/uraghuvamshireddy/Tracker',
     },
     {
       id: 3,
