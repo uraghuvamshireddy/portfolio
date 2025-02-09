@@ -3,9 +3,9 @@ import Educationcard from './Educationcard'
 
 const Education = () => {
   return (
-   <div>
+   <div id='Education'>
      <div className="eduname">
-        <h1>Education</h1>
+        <div>Education</div>
     </div>
     <div className='edu'>
       <Educationcard
