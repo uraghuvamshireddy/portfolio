@@ -30,6 +30,16 @@ html {
 .projects{
   padding-right: 20px;
 }
+.navbar a {
+  color: #fff; 
+  font-size: 18px;
+  text-decoration: none; 
+}
+
+.navbar a:hover {
+  color:  rgba(255, 255, 0, 0.538); 
+  text-decoration: underline; 
+}
 
 .des{
   padding: 20px;
